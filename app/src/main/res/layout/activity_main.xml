@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/txtTitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coaching Sportif"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/editMotDePasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnConnexion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Se connecter" />
+
+    <TextView
+        android:id="@+id/txtCreerCompte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pas de compte ? Inscrivez-vous"
+        android:textColor="#1976D2"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#D32F2F"
+        android:layout_marginTop="16dp"
+        android:gravity="center" />
+
+</LinearLayout>

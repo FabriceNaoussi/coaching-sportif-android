@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Créer un compte"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/editNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom complet"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/editEmailInscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/editMotDePasseInscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/editObjectif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Objectif (ex: Perdre 5kg)"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnInscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="S'inscrire" />
+
+    <TextView
+        android:id="@+id/txtMessageInscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#D32F2F"
+        android:layout_marginTop="16dp"
+        android:gravity="center" />
+
+</LinearLayout>
