@@ -42,7 +42,7 @@ app/src/main/java/com/example/coachingsportif/
 - Suivi de progression (poids, masse grasse) avec historique
 - Session persistante (token conservé entre les lancements de l'app)
 
-## 🧠 Concepts démontrés (A17)
+## 🧠 Concepts démontrés
 
 - Activities, layouts et navigation par Intents
 - Connectivité réseau via `HttpURLConnection` sur un `Thread` dédié
@@ -59,12 +59,4 @@ Ouvrir dans Android Studio, synchroniser Gradle, lancer sur un émulateur
 ou un appareil physique (API 24+). L'application se connecte directement
 à l'API déployée en ligne — aucune configuration locale nécessaire.
 
-## 🚀 Améliorations possibles
-
-- Remplacer la saisie manuelle de date par un `DatePickerDialog`
-- Ajouter un `RecyclerView` plutôt qu'une `ListView` (plus moderne)
-- Ajouter la facturation et la messagerie (endpoints déjà disponibles côté API)
-- Internationalisation FR/EN (`cours09`)
-
 ---
-*Projet académique — Analyste-Programmeur, Techniques de l'informatique.*
